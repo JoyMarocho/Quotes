@@ -1,7 +1,8 @@
-import { Highlightghighvotequote.Directive } from './highlightghighvotequote.directive';
+import { HighlightghighvotequoteDirective } from './highlightghighvotequote.directive';
 
-describe('Highlightghighvotequote.Directive', () => {
+describe('HighlightghighvotequoteDirective', () => {
   it('should create an instance', () => {
-    expect(new Highlightghighvotequote.Directive()).toBeTruthy();
+    const directive = new HighlightghighvotequoteDirective();
+    expect(directive).toBeTruthy();
   });
 });

@@ -17,7 +17,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>This is an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.</p>
+<p>This is an application that allows users to create quotes while enabling other users to vote whether the quotes are inspirational or terrible. Positive numbers show that the quotes are inspirational, whereas negative numbers indicate that the quotes are terrible.</p>
 <p>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.</p>
 
 ### Prerequisites
@@ -26,16 +26,20 @@ To create a component, verify that you have met the following prerequisites:
 -   Install the Angular CLI.
 -   Create an Angular workspace with initial application. If you don't have a project, create one using ng new <project-name>, where <project-name> is the name of your Angular application.
 
-### Installation/Setups Requirements
--   Open your terminal (ctrl+alt+T).
--   Initialize git on your terminal.
--   git clone <https://github.com/JoyMarocho/Quotes.git>.
--   open the 'Quotes' folder.
--   Run npm start on terminal
--   Open localhost 4200 or the link after running the command
+## Setup/Installation Requirements
+* Visual Studio (VS) Code or Atom Editor will be essential.
+* One must also clone the github repository <https://github.com/JoyMarocho/Quotes.git>.
+* Use Go Live on VS Code.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
  
 ## Technology Used
- * HTML, CSS, and Angular
+ * HTML
+ * CSS
+ * Angular (13.3.1)
+ * Javascript
  * Any text editor of your choice 
  
  [Go Back to the top](#QUOTES)
@@ -114,8 +118,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
  ## Authors Info
  
- Slack Profile - [JOY MAROCHO](https://app.slack.com/client/T0101L740P4/D0330AQB1PSlack%20Profile%20-%20[JOY%20MAROCHO](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/UKXhttps://app.slack.com/client/T0101L740P4/D0330AQB1PSlack%20Profile%20-%20[JOY%20MAROCHO](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/UKXCHMCNP?cdn_fallback=1)WCHMCNP?cdn_fallback=1)W)
+ -  Email: joymarocho@gmail.com
+
+-    Linked - [JOY MAROCHO](https://www.linkedin.com/in/joy-marocho-553b3b12a/)
+
+ -  Slack Profile - [JOY MAROCHO](https://app.slack.com/client/T0101L740P4/D0330AQB1PSlack%20Profile%20-%20[JOY%20MAROCHO](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/UKXhttps://app.slack.com/client/T0101L740P4/D0330AQB1PSlack%20Profile%20-%20[JOY%20MAROCHO](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/UKXCHMCNP?cdn_fallback=1)WCHMCNP?cdn_fallback=1)W)
  
- Linked - [JOY MAROCHO](https://www.linkedin.com/in/joy-marocho-553b3b12a/)
- 
- [Go Back to the top](#JOJO-PIZZA)
+ [Go Back to the top](#QUOTES)

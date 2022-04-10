@@ -1,7 +1,8 @@
-import { TimeCount.Pipe } from './time-count.pipe';
+import { TimeCountPipe } from './time-count.pipe';
 
-describe('TimeCount.Pipe', () => {
-  it('should create an instance', () => {
-    expect(new TimeCount.Pipe()).toBeTruthy();
+describe('TimeCountPipe', () => {
+  it('create an instance', () => {
+    const pipe = new TimeCountPipe();
+    expect(pipe).toBeTruthy();
   });
 });

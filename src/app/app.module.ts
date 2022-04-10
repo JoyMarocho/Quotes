@@ -10,7 +10,6 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { TimeCountPipe } from './time-count.pipe';
 import { HighlightghighvotequoteDirective } from './highlightghighvotequote.directive';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +21,7 @@ import { HighlightghighvotequoteDirective } from './highlightghighvotequote.dire
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
     FormsModule
   ],
   providers: [],
