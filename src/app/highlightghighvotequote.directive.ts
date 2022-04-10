@@ -4,7 +4,7 @@ import { Directive } from "@angular/core";
     selector: '[appHighlightghighvotequote]'
 })
 
-export class Highlightghighvotequote.Directive {
+export class HighlightghighvotequoteDirective {
 
     constructor() { }
 
