@@ -1,10 +1,11 @@
 *{
     background-image: url("src/assets/download.jpeg");
-    background-size: auto;
+    background-size: cover;
 }
 
 div{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 
 .card{
@@ -23,4 +24,5 @@ div{
 h1{
     text-align: center;
     font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

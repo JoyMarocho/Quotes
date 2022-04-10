@@ -17,6 +17,7 @@ export class QuoteComponent implements OnInit {
     new Quote (5, 'Fearlessness is like a muscle. I know from my own life that the more I exercise it the more natural it becomes to not let my fears run me.', 'Arianna Huffington', 'Don Caleb', new Date(2021, 1, 25)),
     new Quote (6, 'In the end, a vision without the ability to execute it is probably a hallucination', 'Steve Case', 'Yadah', new Date(2020, 2, 14)),
     new Quote (7, 'Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.', 'Steve Jobs', 'Sophy', new Date(2022, 1, 24)),
+    new Quote (6, 'Chase the vision, not the money, the money will end up following you.', 'Tony Hsieh', 'Jojo', new Date(2018, 5, 2)),
   ];
 
   displayDetails(index:any){
