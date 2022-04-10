@@ -1,1 +1,27 @@
-<p>quotes works!</p>
+<div class="container-fluid">
+    <h1> HOME OF INSPIRATIONAL QUOTES</h1>
+        <h2> Get TO Motivate Yourself Through US</h2>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-8">
+                <app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
+            </div>
+        </div>
+        <div class="row">
+            <div *ngFor='let quote of quotes; let i = index' class="col-md-3">
+                <div class="card text-black bg-dark h-100">
+                    <div class="card-header text-center">
+                        Quote 
+                    </div>
+                    <div class="card-body text-center">
+                        <p>{{quote.quote}}</p>
+                        <button (click)='displayDetails(i)' class="btn btn-primary text-black"> Display Details </button>
+                    </div>
+                    <div class="card-footer text-center">
+                        <app-quotes-details *ngIf='quote.showAuthorAndSubmitter' [quote]='quote' (isComplete)='deleteQuote($event, i)'></app-quotes-details>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
