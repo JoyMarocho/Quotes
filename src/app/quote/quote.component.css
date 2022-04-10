@@ -1,0 +1,27 @@
+*{
+    background-image: url("src/assets/backggg.jpeg");
+    background-size: auto;
+  }
+  
+  div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .card{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .col-md-3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .col-md-8{
+    margin-bottom: 15px;
+  }
+  
+  h1{
+    text-align: center;
+    font-weight: 900;
+  }

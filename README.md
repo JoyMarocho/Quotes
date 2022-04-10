@@ -3,6 +3,7 @@
 ### It is a description of Inspiring Quotes.
 ## Table of Content
 + [Description](#description)
++ [Prerequisites](#prerequisites)
 + [Installation Requirement](#Installation)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
@@ -19,7 +20,7 @@
 <p>This is an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.</p>
 <p>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.</p>
 
-## Prerequisites
+### Prerequisites
 To create a component, verify that you have met the following prerequisites:
 
 -   Install the Angular CLI.
