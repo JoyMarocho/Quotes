@@ -19,6 +19,12 @@
 <p>This is an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.</p>
 <p>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.</p>
 
+## Prerequisites
+To create a component, verify that you have met the following prerequisites:
+
+-   Install the Angular CLI.
+-   Create an Angular workspace with initial application. If you don't have a project, create one using ng new <project-name>, where <project-name> is the name of your Angular application.
+
 ### Installation/Setups Requirements
 -   Open your terminal (ctrl+alt+T).
 -   Initialize git on your terminal.
